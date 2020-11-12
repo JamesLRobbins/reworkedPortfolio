@@ -23,28 +23,28 @@ function About() {
                     <Grid.Column>
                         <Button
                             content="Linkedin"
-                            color="primary"
+                            primary
                             href="https://www.linkedin.com/in/james-robbins-08750953/" target="_blank" rel="noopener noreferrer"
                         />    
                     </Grid.Column>
                     <Grid.Column>
                         <Button
                         content="GitHub"
-                        color="primary"
+                        primary
                         href="https://github.com/JamesLRobbins" target="_blank" rel="noopener noreferrer"
                       />
                     </Grid.Column>
                     <Grid.Column>
                         <Button
                         content="Resume"
-                        color="primary"
+                        primary
                         href="https://pdfhost.io/v/YmWU++eGO_James_Robbins_Resume.pdf" target="_blank" rel="noopener noreferrer"
                         />
                     </Grid.Column>
                     <Grid.Column>
                         <Button
                         content="Contact"
-                        color="primary"
+                        primary
                         href="https://pdfhost.io/v/YmWU++eGO_James_Robbins_Resume.pdf" target="_blank" rel="noopener noreferrer"
                         />
                     </Grid.Column>

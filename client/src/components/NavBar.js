@@ -36,7 +36,6 @@ export default class NavBar extends Component {
           <Menu.Item
             name="linkedin"
             onClick={this.handleItemClick}
-            icon="linkedin"
             href="https://www.linkedin.com/in/james-robbins-08750953/" 
             target="_blank" rel="noopener noreferrer"
             >
@@ -45,7 +44,6 @@ export default class NavBar extends Component {
           <Menu.Item
             name="github"
             onClick={this.handleItemClick}
-            icon="github"
             href="https://github.com/JamesLRobbins" 
             target="_blank" rel="noopener noreferrer"
             >
@@ -54,7 +52,6 @@ export default class NavBar extends Component {
           <Menu.Item
             name="email"
             onClick={this.handleItemClick}
-            icon="mail" 
             >
               <Icon name="mail" />
             </Menu.Item>
