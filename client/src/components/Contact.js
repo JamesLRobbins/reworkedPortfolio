@@ -33,7 +33,7 @@ class Contact extends React.Component {
                 <label>Message</label>
                 <input placeholder='Message' type="text" name="message" />
         </Form.Field>
-            <Button type='submit' color="primary"><Icon name="mail" />Submit</Button>
+            <Button type='submit' primary><Icon name="mail" />Submit</Button>
         </Form>
         </Container>
   );

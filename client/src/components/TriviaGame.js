@@ -1,5 +1,6 @@
 import React from 'react';
-import { Image, Container, Grid } from 'semantic-ui-react'
+import { Image, Container, Grid } from 'semantic-ui-react';
+import TriviaGameImage from '../images/Trivia_Game.png';
 
 function TriviaGame() {
     return(
@@ -7,7 +8,7 @@ function TriviaGame() {
         <Grid columns={1}>
             <Grid.Row>
                 <Grid.Column>
-                    <Image src={require("../images/Trivia_Game.png")} size="massive" rounded href="https://jameslrobbins.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer"/> <br />      
+                    <Image src={TriviaGameImage} size="massive" rounded href="https://jameslrobbins.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer"/> <br />      
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>
