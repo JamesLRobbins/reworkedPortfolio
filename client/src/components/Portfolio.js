@@ -25,6 +25,7 @@ export default class Portfolio extends Component {
               name='Word Guess'
               active={activeItem === 'Word Guess'}
               onClick={this.handleItemClick}
+              className="portMenu"
             />
             <Menu.Item
               name='Trivia Game'

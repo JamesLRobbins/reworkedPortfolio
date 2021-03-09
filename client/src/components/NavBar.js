@@ -39,7 +39,7 @@ export default class NavBar extends Component {
             href="https://www.linkedin.com/in/james-robbins-08750953/" 
             target="_blank" rel="noopener noreferrer"
             >
-              <Icon name="linkedin" />
+              <Icon name="linkedin" size="large"/>
             </Menu.Item>
           <Menu.Item
             name="github"
@@ -47,13 +47,7 @@ export default class NavBar extends Component {
             href="https://github.com/JamesLRobbins" 
             target="_blank" rel="noopener noreferrer"
             >
-              <Icon name="github" />
-            </Menu.Item>
-          <Menu.Item
-            name="email"
-            onClick={this.handleItemClick}
-            >
-              <Icon name="mail" />
+              <Icon name="github" size="large"/>
             </Menu.Item>
         </Menu.Menu>
       </Menu>
